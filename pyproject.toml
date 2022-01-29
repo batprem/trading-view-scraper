@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "trading_view_scraper"
+version = "0.1.0"
+description = "Scrape traTradin view market feed with websockets"
+authors = ["Prem"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+websockets = "9.1"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
